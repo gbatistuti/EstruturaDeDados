@@ -1,0 +1,29 @@
+Utilizando como tema algum evento a sua escolha (pode ser a Olimpíada, Lollapalooza, Entrega do Oscar, eleições), criar o enunciado de um problema que possa ser resolvido através de um algoritmo.
+
+Crie um projeto em Java ou em C# com o nome EDP1-xxxxxxxx, sendo xxxxxxxx o seu número de RA e implemente o algoritmo segundo os requisitos abaixo.
+
+
+
+Preste muita atenção nos requisitos necessários, para não ter a nota descontada:
+
+- Escrever o enunciado (o que o programa deve fazer) como comentário no início do programa 
+
+O algoritmo deverá apresentar os seguintes itens:
+
+- Uso de vetor (não é para usar List ou ArrayList ou qualquer outra coleção já pronta)
+
+- Leitura e utilização de um ou mais valores String (a utilização pode ser o uso do valor lido para exibição)
+
+- Leitura e utilização de um ou mais valores inteiros
+
+- Leitura e utilização de um ou mais valores reais (float ou double)
+
+- Switch / Case (dica: pode fazer um menu com opções para o usuário escolher o que o programa faz)
+
+- Um ou mais cálculos aritméticos 
+
+- Exibição do(s) resultado(s) do(s) cálculo(s)
+
+
+
+No final, entregar a pasta do projeto compactado ou apenas o código fonte do programa  no quadro de upload abaixo.

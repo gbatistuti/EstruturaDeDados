@@ -1,0 +1,63 @@
+Na classe ListaEstatica que desenvolvemos em sala, implementamos o método adicionar, que recebe um elemento para ser adicionado na Lista.
+
+O método adicionar sempre coloca o elemento a ser inserido no final da Lista.
+
+O atributo nroElem indica quantos elementos tem na Lista e também é o valor do índice onde será inserido o próximo elemento (no final da Lista).
+
+Também implementamos o método adicionarOrdenado, que adiciona um elemento fazendo com que a lista permaneça ordenada após a inserção (esse método "abre" um espaço na lista para inserir o elemento, se for necessário).
+
+
+
+Crie um projeto Java ou C# com o nome EDP2-xxxxxxxx, sendo xxxxxxxx o seu número de RA.
+
+Copiar o código da classe ListaEstatica feito em aula para esse projeto.
+
+
+
+1) Implementar na classe Lista o método adicionarNoIndice.
+
+Esse método receberá um valor a ser inserido na lista e o índice onde será inserido.
+
+Se o índice for negativo ou maior do que o nroElem ou se a lista estiver cheia, devolve -1.
+
+Devolve -1 se não conseguiu inserir e 0 se conseguiu.
+
+Atenção: este método também deverá "abrir um espaço" na lista, caso seja necessário.
+
+Por exemplo:
+adicionarNoIndice(2, 0)     // elemento a ser inserido: 2, índice onde será inserido: 0
+
+Após a execução desse método, a lista terá o elemento 2. (2 estará no índice zero da lista)
+
+adicionarNoIndice(10, 1)
+
+Após a execução desse método, a lista terá os elementos 2, 10  (2 estará no índice zero, e 10 no índice 1)
+
+adicionarNoIndice(15, 0)
+
+Após a execução desse método, a lista terá os elementos 15, 2, 10  (15 estará no índice zero, 2 estará no índice 1, e 10 no índice 2)
+
+adicionarNoIndice(12, 1)
+
+Após a execução desse método, a lista terá os elementos 15, 12, 2, 10  (15 estará no índice zero, 12 estará no índice 1, 2 estará no índice 2 e 10 no índice 3)
+
+
+
+2) Implementar o método substituirElemento.
+
+Esse método receberá um valor a ser procurado na lista e um valor que substituirá o valor encontrado.
+
+Se o valor não for encontrado, devolve -1.
+
+Atenção: deverá substituir todas as ocorrências do elemento, caso haja mais de uma ocorrência do mesmo.
+
+Devolve -1 se não conseguiu substituir e 0 se conseguiu.
+
+Por exemplo:
+substituirElemento(10, 20)     // elemento a ser procurado: 10, elemento que substituirá o 10: 20
+
+Após a execução desse método, o valor 10 será substituído pelo 20 (supondo que o 10 esteja na lista)
+
+
+
+3) Testar esses métodos no main.
