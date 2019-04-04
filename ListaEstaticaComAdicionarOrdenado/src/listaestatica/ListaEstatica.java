@@ -35,18 +35,14 @@ public class ListaEstatica {
 			resposta = 0;
 		}
 
-		int sub = nroElem;
-		System.out.println(nroElem);
-		for (int i = nroElem; i >= 0; i--) {
-			System.out.println(sub);
+		int sub = nroElem - 1;
+		for (int i = nroElem; i > 0; i--) {
 			vetor[sub + 1] = vetor[sub];
-			System.out.println(sub);
 			sub--;
 		}
 		vetor[0] = elem;
 		nroElem++;
 		resposta = 0;
-
 		return resposta;
 	}
 
@@ -92,12 +88,12 @@ public class ListaEstatica {
 		int retorno = -1;
 		int c = nroElem;
 		for (int i = 0; i < c; i++) {
-			if(vetor[i] == elem) {
+			if (vetor[i] == elem) {
 				removerPeloIndice(i);
 				retorno = 0;
 			}
 		}
-		
+
 		return retorno;
 	}
 
@@ -121,6 +117,45 @@ public class ListaEstatica {
 		vetor[indice] = elem;
 		nroElem++;
 		return 0;
+	}
+	
+	
+	
+	
+	
+	public int adicionarNoIndice(int elem, int indice) {
+		if (nroElem >= vetor.length) {
+			return -1;
+		}
+		
+		if(indice>=vetor.length) {
+			return -1;
+		}
+			
+		
+		int sub = nroElem - 1;
+		for (int i = nroElem; i >= indice; i--) {
+			vetor[sub + 1] = vetor[sub];
+			sub--;
+		}
+		vetor[indice] = elem;
+		nroElem++;
+				
+		return 0;
+	}
+
+	public int substituirElemento(int substituido, int substituto) {
+		int retorno = -1;
+		int c = nroElem;
+		for (int i = 0; i < c; i++) {
+			if (vetor[i] == substituido) {
+				vetor[i] = substituto;
+				retorno = 0;
+			}
+		}
+
+		return retorno;
+
 	}
 
 }
