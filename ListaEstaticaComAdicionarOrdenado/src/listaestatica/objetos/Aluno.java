@@ -9,7 +9,6 @@ public abstract class Aluno {
 		this.nome = nome;
 		this.ra = ra;
 	}
-
 	
 	public String getNome() {
 		return nome;
