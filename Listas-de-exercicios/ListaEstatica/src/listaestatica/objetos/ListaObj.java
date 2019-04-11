@@ -92,28 +92,6 @@ public class ListaObj {
 		return retorno;
 	}
 
-//	public int adicionarOrdenado(Object elem) {
-//		int indice = nroElem;
-//		if (nroElem >= obj.length) {
-//			return -1;
-//		}
-//
-//		boolean achou = false;
-//		for (int i = 0; i < nroElem && !achou; i++) {
-//			if (elem <= obj[i]) {
-//				indice = i;
-//				achou = true;
-//			}
-//		}
-//
-//		for (int i = nroElem - 1; i >= indice; i--) {
-//			obj[i + 1] = obj[i];
-//		}
-//		obj[indice] = elem;
-//		nroElem++;
-//		return 0;
-//	}
-
 	public int adicionarNoIndice(int elem, int indice) {
 		if (nroElem >= obj.length) {
 			return -1;
@@ -146,6 +124,18 @@ public class ListaObj {
 
 		return retorno;
 
+	}
+
+	public Object getObj(int i) {
+		return obj[i];
+	}
+
+	public Object[] getObj() {
+		return obj;
+	}
+
+	public int getNroElem() {
+		return nroElem;
 	}
 
 }

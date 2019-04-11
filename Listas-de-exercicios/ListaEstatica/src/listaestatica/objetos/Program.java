@@ -10,9 +10,9 @@ public class Program {
 		Aluno aF2 = new AlunoFundamental("Gabizinha", 159, 10.0, 3.0, 0.0, 10.0);
 		Aluno aP2 = new AlunoPos("Silvia", 278, 10, 10, 10);
 
-//		System.out.println(aF.toString());
-//		System.out.println(aG.toString());
-//		System.out.println(aP.toString());
+//		System.out.println(aF);
+//		System.out.println(aG);
+//		System.out.println(aP);
 
 		Cadastro lista = new Cadastro(5);
 
@@ -31,12 +31,13 @@ public class Program {
 		
 		System.out.println("\n-----BUSCANDO RA------\n");
 
-		int raBuscado = 147;
+		int raBuscado = 456;
 		if (lista.buscaRa(raBuscado) == null) {
 			System.out.println("Não foi encontrado nenhuma referência com RA: " + raBuscado);
 		} else {
-			System.out.println(lista.buscaRa(raBuscado).toString());
+			System.out.println(lista.buscaRa(raBuscado));
 		}
+
 	}
 
 }
