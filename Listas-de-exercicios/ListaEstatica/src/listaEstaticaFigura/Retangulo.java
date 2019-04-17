@@ -32,7 +32,7 @@ public class Retangulo extends Figura {
 
 	@Override
 	public String toString() {
-		return "Altura do ret‚ngulo: " + getAltura() + "\n Base do ret‚ngulo: " + getBaseR() + "\n ¡rea do ret‚ngulo: "
+		return "Altura do ret‚ngulo: " + getAltura() + "\nBase do ret‚ngulo: " + getBaseR() + "\n¡rea do ret‚ngulo: "
 				+ calculaArea() + "\n";
 	}
 

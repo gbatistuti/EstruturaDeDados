@@ -1,0 +1,4 @@
+1;Estrutura de Dados;ADS;3;55
+2;Arquitetura Computacional;ADS;1;130
+3;Algoritmos;ADS;1;130
+4;Segurança de Redes;Redes;2;50

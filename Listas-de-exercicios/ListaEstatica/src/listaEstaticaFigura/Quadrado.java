@@ -24,7 +24,7 @@ public class Quadrado extends Figura {
 
 	@Override
 	public String toString() {
-		return "O tamanho do lado do quadrado é: " + getLado() + "\n Sua área calculada é: " + this.calculaArea()+ "\n";
+		return "O tamanho do lado do quadrado é: " + getLado() + "\nSua área calculada é: " + this.calculaArea()+ "\n";
 	}
 
 }

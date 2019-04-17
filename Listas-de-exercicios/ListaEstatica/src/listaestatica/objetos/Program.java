@@ -5,7 +5,7 @@ public class Program {
 	public static void main(String[] args) {
 
 		Aluno aF = new AlunoFundamental("Gustavo", 123, 4.5, 10.0, 9.3, 7.9);
-		Aluno aG = new AlunoGraduacao("Lohany", 456, 10.0, 6.5);
+		Aluno aG = new AlunoGraduacao("Lohany", 456, 10.0, 5.5);
 		Aluno aP = new AlunoPos("Giuliana", 789, 8.3, 10.0, 9.5);
 		Aluno aF2 = new AlunoFundamental("Gabizinha", 159, 10.0, 3.0, 0.0, 10.0);
 		Aluno aP2 = new AlunoPos("Silvia", 278, 0, 0, 10);

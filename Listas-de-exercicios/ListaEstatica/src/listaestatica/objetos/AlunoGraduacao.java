@@ -28,7 +28,7 @@ public class AlunoGraduacao extends Aluno {
 
 	@Override
 	double calculaMedia() {
-		return (this.getN1() * 0.4) + (this.getN2() * 0.6) / 2;
+		return (this.getN1() * 0.4) + (this.getN2() * 0.6);
 	}
 
 	@Override

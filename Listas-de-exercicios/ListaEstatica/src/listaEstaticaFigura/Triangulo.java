@@ -28,7 +28,7 @@ public class Triangulo extends Figura {
 
 	@Override
 	public String toString() {
-		return "Base do tri‚ngulo: " + getBaseT() + "\n Altura do tri‚ngulo: " + getAltura() + "\n ¡rea do tri‚ngulo: "
+		return "Base do tri‚ngulo: " + getBaseT() + "\nAltura do tri‚ngulo: " + getAltura() + "\n¡rea do tri‚ngulo: "
 				+ calculaArea()+ "\n";
 	}
 
