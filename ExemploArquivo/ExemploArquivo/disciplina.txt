@@ -1,4 +1,0 @@
-1 Estrutura ADS 3 55
-2 Algoritmos ADS 1 130
-3 Arquitetura ADS 1 130
-4 Segurança REDES 2 50
