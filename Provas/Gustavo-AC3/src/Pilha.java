@@ -1,15 +1,15 @@
-package pratica07_pilha;
 
 
-public class PilhaChar {
+
+public class Pilha {
 	
 	// Atributos
-	private char[] pilha;
+	private int[] pilha;
 	private int topo;
 	
 	// Construtor
-	public PilhaChar(int capacidade) {
-		pilha = new char[capacidade];
+	public Pilha(int capacidade) {
+		pilha = new int[capacidade];
 		topo = -1;    // inicializa topo com -1 (pilha vazia)
 	}
 
@@ -27,7 +27,7 @@ public class PilhaChar {
 		                       // caso contrário, retornará false
 	}
 	
-    public void push(char info) {
+    public void push(int info) {
     	if (isFull()) {
     		System.out.println("Pilha cheia");
     	}
@@ -41,10 +41,10 @@ public class PilhaChar {
     	}
     }
     
-    public char pop() {
+    public int pop() {
     	if (isEmpty()) {
     		System.out.println("Pilha vazia");
-    		return 0;
+    		return -1;
     	}
     	else {
     		return pilha[topo--];
